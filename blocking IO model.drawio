@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T06:02:25.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="-DnjLyJtuyDcsBY2m_rh" version="16.5.6" type="github"><diagram id="UQY4PCO7xXJR7vr_syoV" name="Page-1">5Vpdb6M6EP01ftwKYz7MIyR0dx9WWqlXuo9XXnATtA7OOqRJ99ffMRhIwGnTbdKuihQlw/gD+5xjz9gKIrPV/rNi6+U3mXOBXCffIzJHrovhAz/a89h4At9rHAtV5KZS77grfnPjdIx3W+R8c1SxklJUxfrYmcmy5Fl15GNKyd1xtXspjt+6Zgs+ctxlTIy9/xZ5tWy81A17/xdeLJbtm3EQNSUr1lY2M9ksWS53By6SIjJTUlaNtdrPuNDgtbg07W5PlHYDU7yszmngJtX3r5hFafDD/W8eiH/uGPtkenlgYmsmbAZbPbYIwLjX2sy2SjwmimU/Obwv2S2Lit+tWabLdkA++JbVSsATBlPJbZnz3DyZt3BV8f3J4eMOFFATlyteqUeo0jagBkcjpNA87npWWqSXB4R4xDiZEcKi67nHCgwD1wugcy3QBUJDcy9hSocYBr+2si34tKk1HkMF7K338FPj49RlOzNyXVpKtWKibwzWov5NKUpuUQRGiGKKKBgRisAJho9ijKJUG9FMl5oh/VBtc8Wzh3slV20JzL0Zr+l9SD8wpv2bSsmffCaFVOAvZcn1fAohBq4DCehuzYJ2vfbZdKzLtRwKWGmxKBYl+FZFnuvChBlHBtLg6jLyGagH9HPjjwSEsUVBGPtXUpA3VhDwlsQo8jS38A0Ejtn+oAwNF7g7XuDYsa3way1wf0SPKMrtXnNEA0R9lAYodlBCPyojfhAeMYLfm5HgbaLVvSjWX8aEYO8ysAYDWOl5kcx1rgVr+CFhdaMzccXXwjU6mSFs1qx8fYbgaUWM0wOIE3NEozqWpGafisB2tEHnKE4PYn8zko8d+wM62Mf84Ma1RH/rXtblCReXR6u7t9aHpzNFmlriGEgnmaGImKKkzkfoTKckWjoJSsI6H/FQNB9nlhad6ea09pyT10xalIT4NwEZi9KzpqT0JryaLG1nwhcebKiW5VB5Ez15dHHbEO2/dxaFL3BytRJs2wCC+hwa1ztBqDcVfUT1tK0NqDyfmBx8/2+TA3k+/eNlHuvLNI2FYJtNkZ1K9JxBckc71Hg+uml7FrMDUHwLJq1PccGq4uG4extQ5g3fZVHr3FBC3GNK6ADqjdyqjJtGhzdsg3588nQ/FVMLXo36qVnrJv0KIi33CW+TbyakvnwK9Xd0W4d2B1HSB/tphXbSxnGjA4900frZVd5nppdf6OMLjevt+3WSCft7WvsTbNQBkWDa2323j7/ffm+7RbmUDAZnhKdOnpNk33In8cbs2y57Xhgkzmbf14zD+VEXUaTnPqk4MLw/9YJ3Z59OPdcb5mjenyZ7BD/T0bWzvdO3i6/dxpsTWnNX49Rntolv426bOj2xkEOLZsnLUzl47P8S0Gil/2MFSf8H</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-15T06:10:35.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="urP3AaYOFEOfTL_ZXgfc" version="16.5.6" type="github">
+  <diagram id="UQY4PCO7xXJR7vr_syoV" name="Page-1">
+    <mxGraphModel dx="1504" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="70" width="20" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-2" value="&lt;font style=&quot;font-size: 14px ; font-weight: normal&quot;&gt;进程阻塞在&lt;br&gt;recvfrom&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="227.5" width="110" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-4" value="应用进程" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="180" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-5" value="linux内核" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="567" y="10" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="667" y="80" width="20" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="667" y="290" width="13" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-9" value="&lt;span style=&quot;font-size: 14px ; font-weight: 400&quot;&gt;等待数据&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="687" y="156.25" width="100" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-10" value="&lt;span style=&quot;font-size: 14px ; font-weight: 400&quot;&gt;从内核缓冲区拷贝&lt;br&gt;数据到应用进程&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="687" y="335.63" width="140" height="118.75" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-11" value="&lt;font style=&quot;font-size: 18px&quot;&gt;recvfrom&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="200" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;数据未准备好&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="550" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="80" as="sourcePoint" />
+            <mxPoint x="530" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-14" value="&lt;span style=&quot;font-size: 14px ; font-weight: 400&quot;&gt;系统调用&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="363" y="43.75" width="100" height="46.25" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-15" value="&lt;font style=&quot;font-size: 18px&quot;&gt;数据以就绪&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="550" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-16" value="&lt;font style=&quot;font-size: 18px&quot;&gt;拷贝数据&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="550" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-17" value="&lt;span style=&quot;font-size: 18px&quot;&gt;拷贝完成&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="550" y="455" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="480" as="sourcePoint" />
+            <mxPoint x="310" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2BtPI1a9E6b2_D6lTSaa-19" value="&lt;font style=&quot;font-size: 18px&quot;&gt;处理数据&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="215" y="460" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="amx_YbIeCbru2lOmsc2Y-1" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="2BtPI1a9E6b2_D6lTSaa-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="100" as="sourcePoint" />
+            <mxPoint x="600" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amx_YbIeCbru2lOmsc2Y-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="340" as="sourcePoint" />
+            <mxPoint x="600" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
